@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 10vh;
+}
+
+.container {
+    background-color: #FFF;
+    padding: 15vh;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #341948;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.pepe{
+color: #FFF;
+align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #9388A2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: #9388A2;
+}
+section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.botao{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
