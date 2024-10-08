@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #9388A2;
+}
+
+.icones {
+    display: inline-block;
+}
+.icones a:link{
+    text-decoration: none;
+}
+
+#Informacoes{
+    display: none;
+    font-size:x-large;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button {
+    background-color: #978aaa;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PrimeiraFileira{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.PrimeiraFileira a:link{
+    text-decoration: none;
+}
+
+.card-body{
+    background-color: #412456;
+    color: white;
+    border-radius: 0px 0px 12px 12px;
+    border: 1px solid black;
+}
+
+.btn{
+    display: flex;
+    color: #0E050F;
+    border:none;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover img{
+    box-sizing: border-box;
+    overflow:hidden;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card{
+    border-radius: 12px;
+    border: 1px solid black;
+    background-color: #9388A2;
+    cursor: pointer;
+}
+
+body {
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 650;
+    font-style: normal;
+}
